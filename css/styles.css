@@ -288,3 +288,30 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* Media Queries */
+@media screen and (max-width: 650px) {
+	.filter-options select {
+		width: 275px;
+	}
+	.restaurant-list li {
+		width: 100%;
+	}
+	.inside #footer {
+		position: relative;
+		width: 100%;
+		bottom: 0;
+	}
+	#restaurant-name, #restaurant-container h3 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#restaurants-list {
+		max-width: 1500px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
